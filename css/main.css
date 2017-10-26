@@ -1,0 +1,10 @@
+/*estilos generales para la pagina (body)*/
+body {
+	margin: 0 auto;
+	background-color: #fff;
+	color: #333447;
+	background-image: url("assets/images/hero.gif");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*formato para estilos de header*/
