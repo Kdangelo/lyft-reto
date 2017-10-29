@@ -23,7 +23,6 @@ header {
 	background-repeat: no-repeat;
 	width: 100%;
 	overflow: hidden;
-	display: fixed;
 }
 header .logo {
 	float: left;
@@ -235,3 +234,48 @@ form p {
 	margin-bottom: 300px;
 }
 /*formato footer*/
+footer {
+	background-color: #333447;
+}
+.content1 {
+	overflow: hidden;
+}
+.menu {
+	float: left;
+	padding: 50px 100px;
+}
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu h3 {
+	padding: 15px 0px;
+}
+.menu li {
+	padding: 15px 0px;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu a:hover {
+	color: #ff00bf;
+}
+.menu img {
+	display: block;
+}
+.imgf {
+	text-align: center;
+	vertical-align: center;
+	padding: 25px 0px 35px 0px;
+}
+.firm p {
+	color: #fff;
+	text-align: center;
+}
+.line {
+	border-top: 2px solid white;
+	width: 60%;
+	padding-bottom: 20px;
+}
