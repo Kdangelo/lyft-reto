@@ -1,10 +1,237 @@
-/*estilos generales para la pagina (body)*/
-body {
+/*estilos generales par la pagina */
+* {
 	margin: 0 auto;
-	background-color: #fff;
-	color: #333447;
-	background-image: url("assets/images/hero.gif");
-	background-size: 100%;
-	background-repeat: no-repeat;
+	padding: 0 auto;
 }
-/*formato para estilos de header*/
+body {
+	color: #333447
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 1em;
+}
+.wrapper {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+/*formato barra de navegacion*/
+header {
+	background-image: url(../assets/images/hero.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+	display: fixed;
+}
+header .logo {
+	float: left;
+	line-height: 115px;
+	margin: auto;
+}
+header .logo a {
+	text-decoration: none;
+}
+header .logo img {
+	display: block;
+	padding: 30px 40px;
+	width: 70px;
+	height: 40px;
+}	
+header nav {
+	float: right;
+	line-height: 115px;
+	overflow: hidden;
+	margin-right: 30px;
+}
+header nav a {
+	display: inline-block;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #fff;
+}
+header nav a:hover {
+	color: #FF88E1;
+}
+#button {
+	border: 2px solid white;
+	border-radius: 10%;
+}
+/*formato formulario*/
+header .formdiv {
+	overflow: hidden;
+}
+header .formright {
+	float: right;
+}
+form {
+	background-color: #fff;
+	padding: 64px;
+	width: 545px;
+}
+form h2 {
+	color: #352384;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.1;
+}
+form p {
+	color: #352384;
+	margin-top: 0.5em;
+	font-size: 0.875em;
+	letter-spacing: 1.5px;
+	line-height: 1.5;
+}
+ form label {
+ 	display: inline-block;
+ 	margin-bottom: 8px;
+ 	color: #bfc7d9;
+ 	font-size: 1em;
+ 	line-height:  1.5;
+ 	font-weight: 300;
+}
+ .phone {
+ 	border-bottom: 1px solid black;
+ 	margin: 8px 0px;
+}
+#name {
+	border: none;
+}
+.column {
+	margin-top: 15px;
+}
+.column .become {
+	color: #fff;
+	background-color: #ff00bf;
+	display: inline-block;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.5;
+	border: 1.328px;
+	border-radius: 10px;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+.column .sign {
+	color: #728099;
+	font-weight: 300;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.5;
+	padding: 12px 20px;
+	border: 1.328px;
+}
+.small {
+	color: #728099;
+	font-size: 9.6px;
+	margin-top: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.small p {
+	margin-bottom: 8px;
+}
+#min{
+	color: #ff00bf;
+	text-decoration: none;
+	margin-left: 3px;
+}
+/*fomato secction one*/
+.one {
+	
+	padding: 0px 15px;
+	overflow: hidden;
+	background-color: #6F268B;
+}
+.data {
+	margin-left: 131.906px;
+	margin-right: 15px;
+	padding: 64px 15px;
+	float: left;
+	width: 40%;
+}
+.dataone {
+	margin: 24px 16px;
+	margin-right: 26px;
+}
+.datatwo {
+	margin: 24px 16px;
+	margin-right: 26px;
+}
+.datatree {
+	margin: 24px 16px;
+	margin-right: 26px;
+}
+.data h3 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.75rem;
+	line-height: 1.1;
+}
+.data p {
+	margin: 16px 0px;
+	color: #f3f3f5;
+	font-weight: 300;
+} 
+.cell {
+	float: right;
+	width: 40%;
+	padding: 64px 15px;
+}
+#celphone {
+	width: 450px;
+}
+#happy {
+	margin: 8px 16px 0px 0px;
+}
+/*formato seccion two*/
+.two {
+	overflow: hidden;
+}
+.tree{
+	overflow: hidden;
+}
+.four {
+	overflow: hidden;
+}
+.two .amplify {
+	float: left;
+	width: 30%
+}
+.tree .amplify {
+	float: right;
+	width: 30%;
+}
+.four .amplify {
+	float: left;
+	width: 30%;
+}
+.amplify p {
+	margin-left: 44px;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+.amplify h3 {
+	margin-left: 44px;
+}
+.two .video1 {
+	float: right;
+	width: 70%;
+}
+.tree .video2 {
+	float: left;
+	width: 70%;
+}
+.four .video3 {
+	float: right;
+	width: 70%;
+}
+#new {
+	margin-bottom: 300px;
+}
+/*formato footer*/

@@ -5,67 +5,134 @@
 	<meta charset="UTF-8">
 	<title>A ride whenever you need one - Lyft</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-	<header class="back">
-		<img src="assets/images/logo-white.png">
-		<nav>
-			<ul>
-				<li><a href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem</a></li>
-				<li><a href="#nowhere" title="Aliquam tincidunt mauris eu risus">Aliquam</a></li>
-				<li><a href="#nowhere" title="Morbi in sem quis dui placerat ornare">Morbi</a></li>
-			</ul>
-		<form action="#" method="post">
-			<div>
-				<label for="name">Text Input:</label>
-				<input type="text" name="name" id="name" value="" tabindex="1" />
-			</div>
-		    <div>
-				<h4>Radio Button Choice</h4>
-		
-				<label for="radio-choice-1">Choice 1</label>
-				<input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
-		
-				<label for="radio-choice-2">Choice 2</label>
-				<input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
-			</div>
-		
-			<div>
-				<label for="select-choice">Select Dropdown Choice:</label>
-				<select name="select-choice" id="select-choice">
-					<option value="Choice 1">Choice 1</option>
-					<option value="Choice 2">Choice 2</option>
-					<option value="Choice 3">Choice 3</option>
-				</select>
+	<header>
+		<div class="wrapper">
+			<div class="logo">
+				<a href="#"><img src="assets/images/logo-white.png"></a>
 			</div>
 			
-			<div>
-				<label for="textarea">Textarea:</label>
-				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-			</div>
-			
-			<div>
-				<label for="checkbox">Checkbox:</label>
-				<input type="checkbox" name="checkbox" id="checkbox" />
-			</div>
+			<nav>
+				<a href="#">Driver</a>
+				<a href="#">Explore</a>
+				<a href="#">Help</a>
+				<a id="button" href="#">Log in</a>
+			</nav>
+		</div>
 		
-			<div>
-				<input type="submit" value="Submit" />
+		<div class="formdiv" class="wrapper">
+			<div class="formright">
+				<form action="#" method="post">
+					<div>
+						<h2>TURN MILES</h2>
+						<h2>INTO MONEY</h2>
+						<p>SIGN UP TO DRIVE WITH LYFT.</p>
+						
+						<div class="phone">
+							<label for="number">Phone Number</label>
+							<input type="text" name="name" id="name" value="" tabindex="1" />
+						</div>
+					</div>
+				
+					<div class="column">
+						<a class="become" href="#">Become a Driver</a>
+						<a class="sign" href="#">Sign Up to Ride</a>
+					</div>
+					
+					<div class="small">
+						<p>Already applied?<a id="min" href="#">Check the status of your application here.</a></p>
+						<p class="inline2">Earn money for inviting friends to drive.<a id="min" href="#">Learn more</a></p>
+					</div>	
+				</form>
 			</div>
-		</form>
+		</div>
 	</header>
+	
 	<section class="one">
+		<div class="data">
+			<div class="dataone">
+				<h3>A RIDE IN MINUTES</h3>
+				<p>Request a ride and you’ll be on your way in minutes. Request. Ride. Repeat.</p>
+			</div>
+
+			<div class="datatwo">
+				<h3>SERIOUS ABOUT SAFETY</h3>
+				<p>From knowing the color of your driver’s car to our 24/7 Trust & <br>Safety Team, we got you.</p>
+			</div>
+
+			<div class="datatree">
+				<h3>HAPPY DRIVERS.</h3>
+				<h3 id="happy">HAPPY RIDES.</h3>
+				<p>Ride with us and you’ll see why 9 out of 10 rides end with five stars.</p>
+			</div>	
+		</div>
 		
+		<div class="cell">
+			<img id="celphone" src="assets/images/phone.png">
+		</div>
 	</section>
+	
 	<section class="two">
+		<div class="amplify">
+			<p>WATCH</p>
+			<h3>AMPLIFY YOUR RIDE</h3>
+			<p id="new">Lyst's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+		</div>
 		
+		<div class="video1">
+			<iframe width="1108" height="488" frameborder="0" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen>
+			</iframe>
+		</div>
 	</section>
+	
 	<section class="tree">
+		<div class="amplify">
+			<p>WATCH</p>
+			<h3>JUNE</h3>
+			<p id="new">In a animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride--and sharing her life, too.</p>
+		</div>
 		
+		<div class="video2">
+			<iframe width="1108" height="488" frameborder="0" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" allowfullscreen>
+			</iframe>
+		</div>
 	</section>
+
 	<section class="four">
+		<div class="amplify">
+			<p>WATCH</p>
+			<h3>A GOOD THING GOING</h3>
+			<p id="new">Launching on TV online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+		</div>
 		
+		<div class="video3">
+			<iframe width="1108" height="488" frameborder="0" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen>
+			</iframe>
+		</div>
 	</section>
+
+	<footer>
+		<div class="content1">
+			<div class="menu1">
+				
+			</div>
+			
+			<div class="menu2">
+				
+			</div>
+
+			<div class="menu3">
+				
+			</div>
+
+			<div class="|menu4">
+				
+			</div>
+		</div>
+	</footer>
+
 </body>
 </html>
